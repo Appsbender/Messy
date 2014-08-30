@@ -1,0 +1,201 @@
+/* 
+    Document   : apps_styles
+    Created on : Aug 23, 2014, 2:45:21 PM
+    Author     : Appsbender
+    Description:
+       Styles for Basic Business Template for Croogo 2+
+*/
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: lighter;
+}
+.contents{
+    /*make sure the footer is still on bottom*/
+    min-height: 650px;
+}
+.sidebar h3{
+    border-bottom: 1px solid #eee;
+    padding-bottom: .3em;
+}
+
+/* Header Styles*/
+.apps_head_wrapper{ 
+    background: #222 url('../img/bg.jpg') center fixed;
+    color: #fff;
+}
+.apps_head_wrapper>.container>.navbar{
+    margin-top: .8em;
+}
+.apps_head_wrapper>.container>.apps_slider{
+
+}
+
+/* Showcase Styles*/
+.apps_showcase{
+    background: #eee;
+    padding: 1.4em 0 2.4em 0;
+}
+.apps_showcase>.container{
+    margin: 0 auto!important;
+    text-align: center!important;
+    color: #222;
+}
+.apps_showcase>.container>.apps_quick_quotes{
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    color: #959595;
+}
+
+/* Services Styles*/
+.apps_services{
+    padding: 2.5em 0 2.8em 0;
+}
+.apps_services>.container{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Team Styles*/
+.apps_team{
+    padding: 1.8em 0 2.8em 0;
+}
+.apps_team>.container{
+    text-align: center;
+    margin: 0 auto;
+}
+.apps_team>.container>.col-md-3{
+    text-align: center;
+    margin: 0 auto;
+}
+.apps_team>.container>.col-md-3>.apps_team_photo_holder{
+    -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    border-radius: 50%!important;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 6px solid #eee;
+}
+.apps_team>.container>.col-md-3>.apps_team_photo_holder:hover{
+    border: 6px solid #358bca;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Footer Styles*/
+.apps_footer{
+    padding: 2.5em 0 3.2em 0;
+    background: #222;
+    color: #eee;
+}
+.apps_footer>a{
+    color: #eee;
+}
+.apps_footer>.container>div>ul{
+    list-style: none;
+    margin-left: 0px!important;
+    list-style-position: outside;
+    padding: 0px;
+}
+.apps_footer>.container>div>ul>li{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+.apps_footer>.container>.col-md-3{
+    margin: 0 auto;
+}
+
+/*
+*Forms
+*/
+.search-form{
+    margin-top: .5em;
+}
+.search-form #search{
+    margin-right: .3em;
+}
+.comment_form{
+    margin-bottom: .8em;
+}
+
+/*
+* Pagination
+*/
+.paging {
+    height: 36px;
+    margin: 18px 0;
+}
+.paging span{
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    border-right: 1px solid;
+    border-right-color: #DDD;
+    border-right-color: rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.paging span:hover, .paging span a:hover, .paging span.current {
+    background-color: #C7EEFE;
+    text-decoration:none;
+}
+
+/*Misc*/
+.top-spacer{
+    margin-top: 1.8em;
+}
+.copyright{
+    text-align: center;
+    margin-top: .8em;
+}
+
+/*
+* Default Style Overrides
+*/
+.apps_head_wrapper>.container>.navbar-transparent{
+    background:none!important;
+    border:none!important;
+}
+.navbar-nav>li>a{
+    font-size: 1.1em!important;
+    color: #eee;
+}
+.navbar-nav>li>a:hover{
+    color: #222;
+}
+.navbar-nav>li.active{
+    background: #eee;
+}
+.navbar-nav>li.active>a{
+    color: #222!important;   
+}
+
+
+/**
+* Media Queries
+*/
+@media(max-width:767px){
+    .nav{
+        border-top: 1px solid #eee!important;
+    }
+    .nav>li{
+        border-bottom: 1px solid #eee!important;
+    }
+}

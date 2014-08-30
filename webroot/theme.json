@@ -1,0 +1,18 @@
+{
+    "name" : "Messy Business",
+    "description" : "Basic Business Template for Croogo 2+",
+    "screenshot" : "screenshot.jpg",
+
+    "author" : "Appsbender",
+    "authorEmail" : "regz24@gmail.com",
+    "authorUrl" : "http://www.appsbender.com",
+
+    "menus" : [
+    "main",
+    "footer"
+    ],
+
+    "regions" : [
+    "right"
+    ]
+}
